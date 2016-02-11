@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style
 // license that can be found in the LICENSE file.
 
-// +build !netgo,!android
+// +build !js,!android
 
 package webgl
 
@@ -12,6 +12,7 @@ import (
 	"reflect"
 
 	"fmt"
+
 	"github.com/go-gl/gl/v2.1/gl"
 )
 
